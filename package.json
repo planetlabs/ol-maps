@@ -1,0 +1,26 @@
+{
+  "name": "planet-maps",
+  "version": "0.0.0",
+  "description": "Custom builds of OpenLayers 3",
+  "homepage": "https://github.com/planetlabs/maps",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/planetlabs/maps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/planetlabs/maps/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "keywords": [
+    "openlayers",
+    "ol3"
+  ],
+  "devDependencies": {
+    "openlayers": "^3.1.0-pre.2"
+  }
+}
