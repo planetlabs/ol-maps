@@ -29,6 +29,7 @@
     "ol.layer.Tile",
     "ol.layer.Vector",
     "ol.proj.*",
+    "ol.source.BingMaps",
     "ol.source.ImageStatic",
     "ol.source.TileJSON",
     "ol.source.Vector",
