@@ -9,7 +9,11 @@ CONFIGS := $(shell find $(CONFIG_DIR) -name '*.json')
 BUILDS := $(patsubst $(CONFIG_DIR)/%.json,$(BUILD_DIR)/%.js,$(CONFIGS))
 
 .PHONY: build-all
-build-all: $(BUILDS) $(BUILD_DIR)/ol.css
+build-all: clean $(BUILDS) $(BUILD_DIR)/ol.css
+
+.PHONY: clean
+clean:
+	@rm -rf $(BUILD_DIR)
 
 $(BUILD_DIR)/%.js: $(CONFIG_DIR)/%.json node_modules/.install
 	@mkdir -p $(BUILD_DIR)
