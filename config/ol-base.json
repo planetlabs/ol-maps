@@ -32,6 +32,7 @@
     "ol.layer.Tile",
     "ol.layer.Vector",
     "ol.proj.*",
+    "ol.render.canvas.Immediate#*",
     "ol.source.BingMaps",
     "ol.source.ImageStatic",
     "ol.source.TileJSON",
