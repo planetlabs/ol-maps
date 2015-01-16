@@ -1,4 +1,5 @@
 {
+  "umd": true,
   "exports": [
     "ol.Collection#*",
     "ol.Feature",
@@ -63,14 +64,9 @@
     "extra_annotation_name": [
       "api", "observable"
     ],
-    "jscomp_off": [
-      "es5Strict"
-    ],
     "compilation_level": "ADVANCED",
-    "output_wrapper": "(function(window){var ROOT = {}; %output%; module.exports = ROOT.ol;})(global);",
     "use_types_for_optimization": true,
     "manage_closure_dependencies": true
   },
-  "jvm": ["-Xmx512m"],
-  "namespace": "ROOT"
+  "jvm": ["-Xmx512m"]
 }

@@ -21,6 +21,6 @@
     "ol3"
   ],
   "devDependencies": {
-    "openlayers": "^3.1.0-pre.2"
+    "openlayers": "3.1.1"
   }
 }
