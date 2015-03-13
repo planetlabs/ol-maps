@@ -26,6 +26,8 @@
     "ol.format.GeoJSON",
     "ol.format.GeoJSON#*",
     "ol.inherits",
+    "ol.interaction.DoubleClickZoom",
+    "ol.interaction.DoubleClickZoom#*",
     "ol.interaction.Select",
     "ol.interaction.Select#*",
     "ol.interaction.defaults",
