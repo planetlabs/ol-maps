@@ -28,6 +28,8 @@
     "ol.inherits",
     "ol.interaction.DoubleClickZoom",
     "ol.interaction.DoubleClickZoom#*",
+    "ol.interaction.Draw",
+    "ol.interaction.Draw#*",
     "ol.interaction.Select",
     "ol.interaction.Select#*",
     "ol.interaction.defaults",
