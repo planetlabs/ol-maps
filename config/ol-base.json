@@ -36,6 +36,7 @@
     "ol.layer.Image",
     "ol.layer.Tile",
     "ol.layer.Vector",
+    "ol.layer.Group",
     "ol.proj.*",
     "ol.render.canvas.Immediate#*",
     "ol.source.BingMaps",
