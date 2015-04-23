@@ -25,6 +25,8 @@
     "ol.extent.*",
     "ol.format.GeoJSON",
     "ol.format.GeoJSON#*",
+    "ol.format.WKT",
+    "ol.format.WKT#*",
     "ol.inherits",
     "ol.interaction.DoubleClickZoom",
     "ol.interaction.DoubleClickZoom#*",
