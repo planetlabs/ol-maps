@@ -21,6 +21,6 @@
     "ol3"
   ],
   "devDependencies": {
-    "openlayers": "git://github.com/tschaub/ol3.git#raster"
+    "openlayers": "https://github.com/tschaub/ol3/tarball/raster"
   }
 }
