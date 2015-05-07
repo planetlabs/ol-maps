@@ -13,7 +13,8 @@
     "ol.proj.*",
     "ol.source.Raster",
     "ol.source.Raster#setOperations",
-    "ol.source.XYZ"
+    "ol.source.XYZ",
+    "ol.source.XYZ#*"
   ],
   "compile": {
     "externs": [
