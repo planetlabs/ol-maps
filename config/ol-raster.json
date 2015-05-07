@@ -9,6 +9,7 @@
     "ol.layer.Image",
     "ol.layer.Image#setOpacity",
     "ol.layer.Tile",
+    "ol.layer.Tile#*",
     "ol.layer.Tile#setOpacity",
     "ol.proj.*",
     "ol.source.Raster",
