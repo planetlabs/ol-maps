@@ -1,6 +1,6 @@
 {
   "name": "planet-maps",
-  "version": "0.0.0",
+  "version": "0.10.0",
   "description": "Custom builds of OpenLayers 3",
   "homepage": "https://github.com/planetlabs/maps",
   "repository": {
@@ -21,6 +21,6 @@
     "ol3"
   ],
   "devDependencies": {
-    "openlayers": "https://github.com/tschaub/ol3/tarball/raster"
+    "openlayers": "git://github.com/tschaub/ol3.git#553fd771a16239f18b0d185abe1d54b61cc3c7a9"
   }
 }

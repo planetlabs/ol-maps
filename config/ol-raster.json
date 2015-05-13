@@ -7,13 +7,12 @@
     "ol.View#*",
     "ol.extent.*",
     "ol.layer.Image",
-    "ol.layer.Image#setOpacity",
+    "ol.layer.Image#*",
     "ol.layer.Tile",
     "ol.layer.Tile#*",
-    "ol.layer.Tile#setOpacity",
     "ol.proj.*",
     "ol.source.Raster",
-    "ol.source.Raster#setOperations",
+    "ol.source.Raster#*",
     "ol.source.XYZ",
     "ol.source.XYZ#*"
   ],
@@ -21,13 +20,13 @@
     "externs": [
       "externs/bingmaps.js",
       "externs/closure-compiler.js",
+      "externs/esrijson.js",
       "externs/geojson.js",
       "externs/oli.js",
       "externs/olx.js",
       "externs/proj4js.js",
       "externs/tilejson.js",
-      "externs/topojson.js",
-      "externs/vbarray.js"
+      "externs/topojson.js"
     ],
     "define": [
       "goog.dom.ASSUME_STANDARDS_MODE=true",
