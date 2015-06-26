@@ -5,8 +5,6 @@
     "ol.Collection#*",
     "ol.Feature",
     "ol.Feature#*",
-    "ol.FeatureOverlay",
-    "ol.FeatureOverlay#*",
     "ol.Map",
     "ol.Map#*",
     "ol.Observable#*",

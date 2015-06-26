@@ -21,6 +21,6 @@
     "ol3"
   ],
   "devDependencies": {
-    "openlayers": "git://github.com/tschaub/ol3.git#553fd771a16239f18b0d185abe1d54b61cc3c7a9"
+    "openlayers": "git://github.com/tschaub/ol3.git#61a7b7b0b2922765e06f0b709b06a45c61a2450a"
   }
 }
