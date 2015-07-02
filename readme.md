@@ -24,6 +24,10 @@ You'll also want to import the stylesheet:
 
 Support for vector and raster souces.  See `config/ol-base.json` for details on what is included.
 
+### `ol-raster`
+
+Support for experimental raster stuff.  See `config/ol-raster.json` for details on what is included.
+
 ## Publishing a new release
 
 Edit the `config` files to include what you need exported and commit the changes.  Next, generate builds for each config file with `make`.  This will create builds in the `dist` directory that are *not* tracked by `git` but that are pushed to the npmjs.org repository for use by consuming packages.

@@ -10,17 +10,12 @@
   "bugs": {
     "url": "https://github.com/planetlabs/maps/issues"
   },
-  "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
-    }
-  ],
+  "license": "Apache-2.0",
   "keywords": [
     "openlayers",
     "ol3"
   ],
   "devDependencies": {
-    "openlayers": "3.4.0"
+    "openlayers": "git://github.com/tschaub/ol3.git#5ca486dc783fbd847c0b5fd61068dd5bf30fa119"
   }
 }
