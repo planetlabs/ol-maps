@@ -16,6 +16,7 @@ clean:
 	@rm -rf $(BUILD_DIR)
 
 $(BUILD_DIR)/%.js: $(CONFIG_DIR)/%.json node_modules/.install
+	@echo "Building $@"
 	@mkdir -p $(BUILD_DIR)
 	@node $(OL_DIR)/tasks/build.js $< $@
 
