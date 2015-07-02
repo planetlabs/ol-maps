@@ -11,7 +11,7 @@
     "url": "https://github.com/planetlabs/maps/issues"
   },
   "scripts": {
-    "prepublish": "make"
+    "prepublish": "in-publish && make || in-install"
   },
   "license": "Apache-2.0",
   "keywords": [
@@ -19,6 +19,7 @@
     "ol3"
   ],
   "devDependencies": {
-    "openlayers": "git://github.com/tschaub/ol3.git#5ca486dc783fbd847c0b5fd61068dd5bf30fa119"
+    "in-publish": "^1.1.1",
+    "openlayers": "https://github.com/tschaub/ol3/archive/5ca486dc783fbd847c0b5fd61068dd5bf30fa119.tar.gz"
   }
 }
