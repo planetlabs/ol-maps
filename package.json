@@ -10,6 +10,9 @@
   "bugs": {
     "url": "https://github.com/planetlabs/maps/issues"
   },
+  "scripts": {
+    "prepublish": "make"
+  },
   "license": "Apache-2.0",
   "keywords": [
     "openlayers",
