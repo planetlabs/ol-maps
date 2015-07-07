@@ -20,6 +20,6 @@
   ],
   "devDependencies": {
     "in-publish": "^1.1.1",
-    "openlayers": "https://github.com/tschaub/ol3/archive/131f33a399a5b956c69e3f4010db741aef929ac3.tar.gz"
+    "openlayers": "https://github.com/tschaub/ol3/archive/8861608947fa72b0eebaf7fe4ceecada5099bc2a.tar.gz"
   }
 }
