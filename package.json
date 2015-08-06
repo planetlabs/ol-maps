@@ -20,6 +20,6 @@
   ],
   "devDependencies": {
     "in-publish": "^1.1.1",
-    "openlayers": "3.8.0-alpha.1"
+    "openlayers": "3.8.1"
   }
 }
