@@ -43,7 +43,6 @@
     "ol.layer.Group#*",
     "ol.proj.*",
     "ol.render.canvas.Immediate#*",
-    "ol.source.BingMaps",
     "ol.source.ImageStatic",
     "ol.source.TileJSON",
     "ol.source.Vector",
@@ -55,7 +54,6 @@
   ],
   "compile": {
     "externs": [
-      "externs/bingmaps.js",
       "externs/closure-compiler.js",
       "externs/geojson.js",
       "externs/oli.js",
