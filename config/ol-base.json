@@ -19,6 +19,8 @@
     "ol.interaction.defaults",
     "ol.source.Vector",
     "ol.source.Vector#*",
+    "ol.source.XYZ",
+    "ol.source.XYZ#*",
     "ol.events.*",
     "ol.extent.*",
     "ol.format.GeoJSON",
