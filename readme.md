@@ -10,23 +10,27 @@ Install `planet-maps` as a dependency with [`npm`](http://nodejs.org/).
 
 Use [Browserify](http://browserify.org/) to `require` OpenLayers 3.
 
-    /* See below for a list of custom builds */
-    var ol = require('planet-maps/dist/ol-base');
+```js
+// see below for a list of custom builds
+var ol = require('planet-maps/dist/ol-base');
+```
 
 You'll also want to import the stylesheet:
 
-    /* Make sure to use the path to your node_modules */
-    @import url('./node_modules/planet-maps/dist/ol.css');
+```css
+/* Make sure to use the path to your node_modules */
+@import url('./node_modules/planet-maps/dist/ol.css');
+```
 
 ## Builds
 
 ### `ol-base`
 
-Support for vector and raster souces.  See `config/ol-base.json` for details on what is included.
+Support for vector and raster sources.  See `config/ol-base.json` for details on what is included.
 
-### `ol-raster`
+### `ol-debug`
 
-Support for experimental raster stuff.  See `config/ol-raster.json` for details on what is included.
+This is a debug build that should never be used in production.
 
 ## Publishing a new release
 
