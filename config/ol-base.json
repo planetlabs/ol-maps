@@ -2,6 +2,7 @@
   "umd": true,
   "exports": [
     "ol.Attribution",
+    "ol.Collection",
     "ol.Collection#*",
     "ol.Feature",
     "ol.Feature#*",
