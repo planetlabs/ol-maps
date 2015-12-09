@@ -33,6 +33,8 @@
     "ol.interaction.DoubleClickZoom#*",
     "ol.interaction.Draw",
     "ol.interaction.Draw#*",
+    "ol.interaction.Modify",
+    "ol.interaction.Modify#*",
     "ol.interaction.Select",
     "ol.interaction.Select#*",
     "ol.interaction.defaults",
