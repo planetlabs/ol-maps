@@ -10,6 +10,7 @@
   "bugs": {
     "url": "https://github.com/planetlabs/maps/issues"
   },
+  "main": "dist/ol-base.js",
   "scripts": {
     "prepublish": "in-publish && make || in-install"
   },
