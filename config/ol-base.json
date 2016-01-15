@@ -22,6 +22,7 @@
     "ol.source.Vector#*",
     "ol.source.XYZ",
     "ol.source.XYZ#*",
+    "ol.tilegrid.TileGrid",
     "ol.events.*",
     "ol.extent.*",
     "ol.format.GeoJSON",
