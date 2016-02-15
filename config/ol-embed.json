@@ -1,0 +1,47 @@
+{
+  "umd": true,
+  "exports": [
+    "ol.Map",
+    "ol.Map#*",
+    "ol.Observable#*",
+    "ol.View",
+    "ol.View#*",
+    "ol.animation.pan",
+    "ol.animation.zoom",
+    "ol.geom.*",
+    "ol.source.XYZ",
+    "ol.source.XYZ#*",
+    "ol.extent.*",
+    "ol.layer.Tile",
+    "ol.layer.Tile#*",
+    "ol.proj.*",
+    "ol.render.canvas.Immediate#*",
+    "ol.source.XYZ",
+    "ol.source.XYZ#*"
+  ],
+  "compile": {
+    "externs": [
+      "externs/closure-compiler.js",
+      "externs/geojson.js",
+      "externs/oli.js",
+      "externs/olx.js",
+      "externs/proj4js.js",
+      "externs/tilejson.js",
+      "externs/topojson.js"
+    ],
+    "define": [
+      "goog.dom.ASSUME_STANDARDS_MODE=true",
+      "goog.DEBUG=false",
+      "ol.ENABLE_DOM=false",
+      "ol.ENABLE_PROJ4JS=false",
+      "ol.ENABLE_WEBGL=false"
+    ],
+    "extra_annotation_name": [
+      "api", "observable"
+    ],
+    "compilation_level": "ADVANCED",
+    "use_types_for_optimization": true,
+    "manage_closure_dependencies": true
+  },
+  "jvm": ["-Xmx512m"]
+}
