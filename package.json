@@ -21,6 +21,6 @@
   ],
   "devDependencies": {
     "in-publish": "2.0.0",
-    "openlayers": "3.13.1"
+    "openlayers": "3.14.0"
   }
 }
