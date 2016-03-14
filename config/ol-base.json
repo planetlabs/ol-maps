@@ -22,7 +22,7 @@
     "ol.source.Vector#*",
     "ol.source.XYZ",
     "ol.source.XYZ#*",
-    "ol.tilegrid.TileGrid",
+    "ol.tilegrid.*",
     "ol.events.*",
     "ol.extent.*",
     "ol.format.GeoJSON",
@@ -74,7 +74,7 @@
       "goog.dom.ASSUME_STANDARDS_MODE=true",
       "goog.DEBUG=false",
       "ol.ENABLE_DOM=false",
-      "ol.ENABLE_PROJ4JS=false",
+      "ol.ENABLE_PROJ4JS=true",
       "ol.ENABLE_WEBGL=false"
     ],
     "extra_annotation_name": [
