@@ -50,6 +50,7 @@
     "ol.proj.*",
     "ol.render.canvas.Immediate#*",
     "ol.source.ImageStatic",
+    "ol.source.ImageVector",
     "ol.source.Raster",
     "ol.source.Raster#*",
     "ol.source.TileJSON",
