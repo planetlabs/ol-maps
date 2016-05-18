@@ -63,7 +63,7 @@
     "ol.source.XYZ#*",
     "ol.source.XYZ#*",
     "ol.style.*",
-    "ol.tilegrid.*",
+    "ol.tilegrid.*"
   ],
   "compile": {
     "externs": [
