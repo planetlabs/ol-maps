@@ -12,23 +12,35 @@ Use [Browserify](http://browserify.org/) to `require` OpenLayers 3.
 
 ```js
 // see below for a list of custom builds
-var ol = require('planet-maps/dist/ol-base');
+var ol = require('@planet/maps/common');
 ```
 
 You'll also want to import the stylesheet:
 
 ```css
 /* Make sure to use the path to your node_modules */
-@import url('./node_modules/planet-maps/dist/ol.css');
+@import url('./node_modules/planet-maps/ol.css');
 ```
 
 ## Builds
 
-### `ol-base`
+### `common`
 
-Support for vector and raster sources.  See `config/ol-base.json` for details on what is included.
+```js
+var ol = require('@planet/maps/common');
+```
 
-### `ol-debug`
+Support for everything required by Scenes, Mosaics, Labs, etc.  See `config/common.json` for details on what is included.
+
+### `explorer`
+
+```js
+var ol = require('@planet/maps/explorer');
+```
+
+Support for everything required by Planet Explorer.  See `config/explorer.json` for details on what is included.
+
+### `debug`
 
 This is a debug build that should never be used in production.
 
@@ -43,6 +55,6 @@ Next you'll want to push your commits (and the tag) and publish your changes to 
     git push --tags origin master
     npm publish
 
-Before publishing, the `prepublish` step will run `make`.  This will create builds in the `dist` directory that are *not* tracked by `git` but that are pushed to the npmjs.org repository for use by consuming packages.
+Before publishing, the `prepublish` step will run `make`.  This will create builds that are *not* tracked by `git` but that are pushed to the npmjs.org repository for use by consuming packages.
 
 Note the new version number in `package.json` and use it in packages that depend on this one.

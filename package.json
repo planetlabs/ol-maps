@@ -1,5 +1,5 @@
 {
-  "name": "planet-maps",
+  "name": "@planet/maps",
   "version": "5.0.1",
   "description": "Custom builds of OpenLayers 3",
   "homepage": "https://github.com/planetlabs/maps",
@@ -10,7 +10,7 @@
   "bugs": {
     "url": "https://github.com/planetlabs/maps/issues"
   },
-  "main": "dist/ol-base.js",
+  "main": "common.js",
   "scripts": {
     "prepublish": "in-publish && make || not-in-publish"
   },
@@ -21,6 +21,6 @@
   ],
   "devDependencies": {
     "in-publish": "2.0.0",
-    "openlayers": "3.17.1"
+    "openlayers": "3.19.0-beta.1"
   }
 }

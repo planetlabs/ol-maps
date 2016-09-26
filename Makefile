@@ -1,31 +1,23 @@
 .DELETE_ON_ERROR:
 export PATH := ./node_modules/.bin:$(PATH)
 
-BUILD_DIR = ./dist
 CONFIG_DIR = ./config
 OL_DIR = ./node_modules/openlayers
 
 CONFIGS := $(shell find $(CONFIG_DIR) -name '*.json')
-BUILDS := $(patsubst $(CONFIG_DIR)/%.json,$(BUILD_DIR)/%.js,$(CONFIGS))
+BUILDS := $(patsubst $(CONFIG_DIR)/%.json,%.js,$(CONFIGS))
 
 .PHONY: build-all
-build-all: $(BUILDS) $(BUILD_DIR)/ol.css
+build-all: $(BUILDS) ol.css
 
-.PHONY: clean
-clean:
-	@rm -rf $(BUILD_DIR)
-
-$(BUILD_DIR)/%.js: $(CONFIG_DIR)/%.json node_modules/.install
+%.js: $(CONFIG_DIR)/%.json node_modules/.install
 	@echo "Building $@"
-	@mkdir -p $(BUILD_DIR)
 	@node $(OL_DIR)/tasks/build.js $< $@
 
-$(BUILD_DIR)/ol.css: node_modules/.install
-	@mkdir -p $(BUILD_DIR)
+ol.css: node_modules/.install
 	@cp $(OL_DIR)/css/ol.css $@
 
 node_modules/.install: package.json
 	@npm prune
 	@npm install
-	@npm dedupe
 	@touch $@
