@@ -18,6 +18,8 @@
     "ol.format.WKT",
     "ol.format.WKT#*",
     "ol.geom.*",
+    "ol.interaction.DragBox",
+    "ol.interaction.DragBox#*",
     "ol.interaction.Draw",
     "ol.interaction.Draw#*",
     "ol.interaction.defaults",
