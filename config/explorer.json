@@ -14,6 +14,7 @@
     "ol.control.ScaleLine#*",
     "ol.control.Zoom",
     "ol.control.Zoom#*",
+    "ol.extent.*",
     "ol.format.GeoJSON",
     "ol.format.GeoJSON#*",
     "ol.format.KML",
