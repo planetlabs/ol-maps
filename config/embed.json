@@ -6,8 +6,6 @@
     "ol.Observable#*",
     "ol.View",
     "ol.View#*",
-    "ol.animation.pan",
-    "ol.animation.zoom",
     "ol.geom.*",
     "ol.source.XYZ",
     "ol.source.XYZ#*",
@@ -21,7 +19,10 @@
   ],
   "compile": {
     "externs": [
+      "externs/bingmaps.js",
+      "externs/cartodb.js",
       "externs/closure-compiler.js",
+      "externs/esrijson.js",
       "externs/geojson.js",
       "externs/oli.js",
       "externs/olx.js",
@@ -30,16 +31,16 @@
       "externs/topojson.js"
     ],
     "define": [
-      "goog.DEBUG=false",
       "ol.ENABLE_PROJ4JS=false",
-      "ol.ENABLE_WEBGL=false"
+      "ol.ENABLE_WEBGL=false",
+      "ol.DEBUG_WEBGL=false"
     ],
     "extra_annotation_name": [
       "api", "observable"
     ],
+    "rewrite_polyfills": "false",
     "compilation_level": "ADVANCED",
     "use_types_for_optimization": true,
     "manage_closure_dependencies": true
-  },
-  "jvm": ["-Xmx512m"]
+  }
 }
